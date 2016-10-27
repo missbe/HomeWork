@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.action.excludePattern" value="/static/*.*" />
+   
+
+    <package name="default" namespace="/"  extends="struts-default">
+        <action name="login" class="cn.missbe.web.home.action.UserLoginAction">
+            <result name="success">/WEB-INF/jsp/message.jsp</result>
+        </action>
+    </package>
+    <!-- Add packages here -->
+
+</struts>
