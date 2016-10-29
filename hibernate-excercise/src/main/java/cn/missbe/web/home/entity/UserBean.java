@@ -1,8 +1,6 @@
 package cn.missbe.web.home.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * Created by Administrator on 2016/10/28 0028.
@@ -11,6 +9,7 @@ import javax.persistence.Table;
 @Table(name="tbl_user")
 public class UserBean {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String username;
     private  String password;
