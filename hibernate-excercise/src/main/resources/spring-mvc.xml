@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:aop="http://www.springframework.org/schema/aop" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context-4.2.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+	http://www.springframework.org/schema/mvc
+	http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd">
+	<!--注册这 BeanPostProcessor的作用 -->
+	<context:annotation-config />
+	<!-- 自动扫描控制包下面的类 use-default-filters默认全扫描，取消设为false-->
+	<context:component-scan base-package="cn.missbe.web.home.controller" use-default-filters="false">
+	   	<!-- 配置只扫描@Controller注解 -->
+	   	<context:include-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
+
+	<!-- JSR 303 Validator -->  
+    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">  
+        <property name="providerClass" value="org.hibernate.validator.HibernateValidator" />
+    </bean>  
+	
+	<!-- 启用注解配置 -->
+	<mvc:annotation-driven  />
+	
+	<!-- 静态资源 -->
+	<mvc:resources location="/static/" mapping="/static/**" />
+    <mvc:resources location="/" mapping="/*.html"/>
+    
+    <!-- 视图解析 -->
+    <bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="contentType" value="text/html;charset=UTF-8" />
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+   
+</beans>
