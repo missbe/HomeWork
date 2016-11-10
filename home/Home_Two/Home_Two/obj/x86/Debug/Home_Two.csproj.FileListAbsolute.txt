@@ -1,0 +1,9 @@
+D:\home\Home_Two\Home_Two\bin\Debug\Home_Two.exe
+D:\home\Home_Two\Home_Two\bin\Debug\Home_Two.pdb
+D:\home\Home_Two\Home_Two\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\home\Home_Two\Home_Two\obj\x86\Debug\Home_Two.exe
+D:\home\Home_Two\Home_Two\obj\x86\Debug\Home_Two.pdb
+C:\Users\Administrator\Desktop\home\Home_Two\Home_Two\obj\x86\Debug\Home_Two.exe
+C:\Users\Administrator\Desktop\home\Home_Two\Home_Two\obj\x86\Debug\Home_Two.pdb
+C:\Users\Administrator\Desktop\home\Home_Two\Home_Two\bin\Debug\Home_Two.exe
+C:\Users\Administrator\Desktop\home\Home_Two\Home_Two\bin\Debug\Home_Two.pdb

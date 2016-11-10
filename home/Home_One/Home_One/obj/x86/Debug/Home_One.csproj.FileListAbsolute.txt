@@ -1,0 +1,5 @@
+D:\home\Home_One\Home_One\bin\Debug\Home_One.exe
+D:\home\Home_One\Home_One\bin\Debug\Home_One.pdb
+D:\home\Home_One\Home_One\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\home\Home_One\Home_One\obj\x86\Debug\Home_One.exe
+D:\home\Home_One\Home_One\obj\x86\Debug\Home_One.pdb

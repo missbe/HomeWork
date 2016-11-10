@@ -1,2 +1,11 @@
 cn\missbe\web\home\controller\UserController.class
+cn\missbe\web\home\service\impl\UserServiceImpl.class
+cn\missbe\web\home\entity\Person$Season.class
+cn\missbe\web\home\service\UserService.class
+cn\missbe\web\home\dao\UserDao.class
+cn\missbe\web\home\entity\Score.class
+cn\missbe\web\home\util\HibernateUtil.class
+cn\missbe\web\home\entity\Name.class
+cn\missbe\web\home\entity\Person.class
 cn\missbe\web\home\entity\UserBean.class
+cn\missbe\web\home\dao\impl\UserDaoImpl.class

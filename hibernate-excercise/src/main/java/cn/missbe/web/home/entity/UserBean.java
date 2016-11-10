@@ -13,6 +13,7 @@ public class UserBean {
     private int id;
     private String username;
     private  String password;
+    private  String truename;
 
     public int getId() {
         return id;
@@ -46,11 +47,11 @@ public class UserBean {
         this.truename = truename;
     }
 
-    private  String truename;
+
 
     public  UserBean(){}
 
-    public UserBean(String username,String password,String truename){
+    public UserBean(String username,String truename ,String password){
         this.username=username;
         this.password=password;
         this.truename=truename;

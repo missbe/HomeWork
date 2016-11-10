@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\home\Home_Three\Home_Three\bin\Debug\Home_Three.exe
+C:\Users\Administrator\Desktop\home\Home_Three\Home_Three\bin\Debug\Home_Three.pdb
+C:\Users\Administrator\Desktop\home\Home_Three\Home_Three\obj\x86\Debug\Home_Three.exe
+C:\Users\Administrator\Desktop\home\Home_Three\Home_Three\obj\x86\Debug\Home_Three.pdb
