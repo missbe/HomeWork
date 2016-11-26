@@ -1,0 +1,11 @@
+E:\C#code\home\Home_Five\Home_Five\obj\x86\Debug\Home_Five.home_form.resources
+E:\C#code\home\Home_Five\Home_Five\obj\x86\Debug\Home_Five.Properties.Resources.resources
+E:\C#code\home\Home_Five\Home_Five\obj\x86\Debug\Home_Five.csproj.GenerateResource.Cache
+E:\C#code\home\Home_Five\Home_Five\bin\Debug\Home_Five.exe
+E:\C#code\home\Home_Five\Home_Five\bin\Debug\Home_Five.pdb
+E:\C#code\home\Home_Five\Home_Five\obj\x86\Debug\Home_Five.exe
+E:\C#code\home\Home_Five\Home_Five\obj\x86\Debug\Home_Five.pdb
+E:\C#code\home\Home_Five\Home_Five\obj\x86\Debug\Home_Five.UserForm.resources
+E:\C#code\home\Home_Five\Home_Five\obj\x86\Debug\Home_Five.login_form.resources
+E:\C#code\home\Home_Five\Home_Five\obj\x86\Debug\Home_Five.csprojResolveAssemblyReference.cache
+E:\C#code\home\Home_Five\Home_Five\obj\x86\Debug\Home_Five.book_form.resources
